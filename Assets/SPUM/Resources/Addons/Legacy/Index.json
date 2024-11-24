@@ -2,7 +2,7 @@
     "Name": "Legacy",
     "Path": "Assets/SPUM/Resources/Addons",
     "Version": "",
-    "CreationDate": "2024-11-05 20:34:22",
+    "CreationDate": "2024-11-17 20:41:22",
     "SpumAnimationData": [
         {
             "index": 0,
@@ -700,14 +700,6 @@
             "Name": "Human_1",
             "UnitType": "Unit",
             "PartType": "Body",
-            "SubType": "Arm_L",
-            "PartSubType": "",
-            "Path": "Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1"
-        },
-        {
-            "Name": "Human_1",
-            "UnitType": "Unit",
-            "PartType": "Body",
             "SubType": "Arm_R",
             "PartSubType": "",
             "Path": "Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1"
@@ -724,14 +716,6 @@
             "Name": "Human_1",
             "UnitType": "Unit",
             "PartType": "Body",
-            "SubType": "Foot_L",
-            "PartSubType": "",
-            "Path": "Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1"
-        },
-        {
-            "Name": "Human_1",
-            "UnitType": "Unit",
-            "PartType": "Body",
             "SubType": "Foot_R",
             "PartSubType": "",
             "Path": "Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1"
@@ -740,7 +724,23 @@
             "Name": "Human_1",
             "UnitType": "Unit",
             "PartType": "Body",
+            "SubType": "Arm_L",
+            "PartSubType": "",
+            "Path": "Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1"
+        },
+        {
+            "Name": "Human_1",
+            "UnitType": "Unit",
+            "PartType": "Body",
             "SubType": "Head",
+            "PartSubType": "",
+            "Path": "Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1"
+        },
+        {
+            "Name": "Human_1",
+            "UnitType": "Unit",
+            "PartType": "Body",
+            "SubType": "Foot_L",
             "PartSubType": "",
             "Path": "Addons/Legacy/0_Unit/0_Sprite/1_Body/Human_1"
         },
@@ -1492,14 +1492,6 @@
             "Name": "F_SR_Cloth",
             "UnitType": "Unit",
             "PartType": "Cloth",
-            "SubType": "Body",
-            "PartSubType": "",
-            "Path": "Addons/Legacy/0_Unit/0_Sprite/2_Cloth/F_SR_Cloth"
-        },
-        {
-            "Name": "F_SR_Cloth",
-            "UnitType": "Unit",
-            "PartType": "Cloth",
             "SubType": "Left",
             "PartSubType": "",
             "Path": "Addons/Legacy/0_Unit/0_Sprite/2_Cloth/F_SR_Cloth"
@@ -1509,6 +1501,14 @@
             "UnitType": "Unit",
             "PartType": "Cloth",
             "SubType": "Right",
+            "PartSubType": "",
+            "Path": "Addons/Legacy/0_Unit/0_Sprite/2_Cloth/F_SR_Cloth"
+        },
+        {
+            "Name": "F_SR_Cloth",
+            "UnitType": "Unit",
+            "PartType": "Cloth",
+            "SubType": "Body",
             "PartSubType": "",
             "Path": "Addons/Legacy/0_Unit/0_Sprite/2_Cloth/F_SR_Cloth"
         },

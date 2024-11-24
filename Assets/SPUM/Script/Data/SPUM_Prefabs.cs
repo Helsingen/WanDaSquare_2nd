@@ -34,17 +34,13 @@ public class SPUM_Prefabs : MonoBehaviour
     public List<AnimationClip> DEBUFF_List = new();
     public List<AnimationClip> DEATH_List = new();
     public List<AnimationClip> OTHER_List = new();
-    
-    
-    
-    
     public void OverrideControllerInit()
     {
         Animator animator = _anim;
         OverrideController = new AnimatorOverrideController();
         OverrideController.runtimeAnimatorController= animator.runtimeAnimatorController;
-        
-        
+
+        // 모든 애니메이션 클립을 가져옵니다
         AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
 
         foreach (AnimationClip clip in clips)
